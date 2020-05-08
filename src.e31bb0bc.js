@@ -70557,7 +70557,7 @@ var _default = function _default(data, divId) {
   legend.selectAll('text').data(extOuInt).enter().append('text').text(function (d) {
     return d[0];
   }).attr('x', 25).attr('y', function (d, i) {
-    return i * 25 + 16;
+    return i * 25 + 3;
   }).attr('text-anchor', 'start').attr('alignment-baseline', 'hanging');
   svg.append('g').attr('transform', "translate(".concat(MARGIN_LEFT - 20, ", ").concat(MARGIN_TOP, ")")).call(axisY).attr('font-size', 15).attr('font-family', 'Roboto').attr('font-weight', '700').attr('color', 'black');
 };
@@ -71234,7 +71234,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56129" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62488" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
